@@ -3,58 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://kit.fontawesome.com/337be747ec.js" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mystyle.css">
     <title>my National geographic</title>
 </head>
-<body>
-    <nav>
-        <img src="" alt="">
-        <a href="#" class="login-link">Login</a>
-        <a href="#" class="search-link"><i class="fa-solid fa-magnifying-glass"></i>
-            /a>
-        <a href="#" class="news-link">Newsletter</a>
-        <a href="#" class="subs-link">Subscribe</a>
-        <a href="#" class="menu-link">Menu <i class="fa-solid fa-angles-down"></i>
-        </a>
 
+    <nav class="menu">
+
+        <img class="natgeo-frame" src="imgs/logo.png" alt="logo-1" width="38" height="35">
+        <img class="natgeo-logo" src="imgs/ng-logo-2fl.webp" alt="logo-2">
+
+        <div>
+            <a href="#" class="login-link">Login</a>
+            <a href="#" class="search-link"><i class="fa-solid fa-magnifying-glass"></i></a>
+            <a href="#" class="news-link">Newsletter</a>
+            <a href="#" class="subs-link">Subscribe</a>
+            <a href="#" class="menu-link"><span>Menu</span><i class="fa-solid fa-angles-down"></i>
+            </a>
+        </div>
+       
     </nav>
-
+    <body>
     <header>
-        <p class="tittle">Latest Stories </p>
-        <p class="description"><span>Subscribe</span>for full acess to read stories from national geographic.</p>
-        <div class="border"></div>
+        <p class="title">Latest Stories </p>
+        <p class="description"><span>Subscribe</span> for full acess to read stories from National Geographic.</p>
+        <div class="border"><hr></div>
     </header>
     <main>
         <section class="main-news">
-            <!--add image-->
+            <img class="img-1" src="imgs/village.webp" alt="pic-1">
             <h3>History & Culture</h3>
             <p>These border village still struggle 75 years.. </p>
-            <h4>Read</h4>
-
+            <h4><i class="fa-solid fa-bars"></i>Read</h4>
         </section>
+    <!--end of main news-->
 
         <section class="secondary-news">
-            <!--add image-->
+            <img class="img-2" src="imgs/Scrolls1.webp" alt="pic-2">
             <h3>History magazine</h3>
-            <p>who wrote the dead ses scrolls </p>
-            <h4>Read</h4>
-
+            <p>Who wrote the dead ses scrolls </p>
+            <h4><i class="fa-solid fa-bars"></i>Read</h4>
         </section>
 
         <section class="secondary-news">
-            <!--add image-->
-            <h3>Maagzine</h3>
-            <p>Tcox's bazar, known as refugee camp, is also a vacation site </p>
-            <h4>Read</h4>
+            <img class="img-3" src="imgs/bazar.webp" alt="pic-3">
+            <h3>History Magazine</h3>
+            <p>Cox's bazar, known as refugee camp, is also a vacation site </p>
+            <h4><i class="fa-solid fa-bars"></i>Read</h4>
 
         </section>
 
         <section class="today's-picks">
-            <h2>Today's pick's</h2>
-            <div>
-                <!--add image-->
-                <h3>Enviromant <span>planet possible</span></h3>
+
+            <h2><span class="l">i</span>  Today's picks</h2>
+
+            <div class="pick-element">
+
+                <img src="imgs/enviroment.jpg" alt="enviroment" width="90px", height="80px">
+                <h3>Enviroment <span>planet possible</span></h3>
                 <p>How the climate bill will cut U.s. emissions</p>
+            </div>
+            <div>
+                <img src="imgs/history.webp" alt="history" width="90px", height="80px">
+                <h3>History & Culture</h3>
+                <p>Images revisit the railways that united Bengal before Partition</p>
+            </div>
+            <div>
+                <img src="imgs/Animal.jpg" alt="animals" width="90px", height="80px">
+                <h3>Animals</h3>
+                <p>Why do animals love to bask in the sun? It's not just to stay warm.</p>
+            </div>
+            <div>
+                <img src="imgs/shower.jpg" alt="shower" width="90px", height="80px">
+                <h3>science</h3>
+                <p>The science of why you have great ideas in the shower.</p>
+            </div>
+            <div>
+                <img src="imgs/volcano.jpg" alt="volcano" width="90px", height="80px">
+                <h3>Science</h3>
+                <p>How the climate bill will cut U.s. emissions</p>
+            </div>
+            <div>
+                <img src="imgs/kingdom.jpg" alt="kingdom"width="90px", height="80px" >
+                <h3 class="paid">Paid content</h3>
+                <p>Mysteries of a medieval Kingdom</p>
             </div>
         </section>
     </main>
